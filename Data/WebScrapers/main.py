@@ -4,7 +4,7 @@ import pandas as pd
 DRIVER_PATH = 'C:/Projects/Selenium/chromedriver/chromedriver.exe'
 driver = webdriver.Chrome(executable_path=DRIVER_PATH)
 
-driver.get('https://www.pro-football-reference.com/years/2018/games.htm')
+driver.get('https://www.pro-football-reference.com/years/2020/games.htm')
 
 weekNum = driver.find_elements_by_xpath("//th[@class='right '][@data-stat='week_num']")
 winnerName = driver.find_elements_by_xpath('//td[@data-stat="winner"]')
@@ -52,7 +52,7 @@ DF = pd.DataFrame ({
     'Time': times,
 })
 
-path = r'C:\Projects\NFLPredictor\Data\Train-Data'
-name = "\Games2018.csv"
+path = r'C:\Projects\NFLPredictor\Data\Test-Data'
+name = "\Games2020.csv"
 location = path + name
 DF.to_csv(location, index=False)
