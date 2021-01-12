@@ -1,0 +1,241 @@
+Week,Winner,Loser,PtsW,PtsL,Location,Day,Time
+1,Detroit Lions,Atlanta Falcons,28,17,,Sun,1:00PM
+1,Cincinnati Bengals,Arizona Cardinals,24,21,,Sun,1:00PM
+1,New York Giants,Philadelphia Eagles,31,17,,Sun,1:00PM
+1,Dallas Cowboys,Pittsburgh Steelers,37,7,@,Sun,1:00PM
+1,St. Louis Rams,New Orleans Saints,38,24,,Sun,1:00PM
+1,Minnesota Vikings,Buffalo Bills,34,13,@,Sun,1:00PM
+1,New England Patriots,San Diego Chargers,41,7,,Sun,1:00PM
+1,Tennessee Oilers,Oakland Raiders,24,21,,Sun,1:00PM
+1,Miami Dolphins,Indianapolis Colts,16,10,,Sun,1:00PM
+1,Jacksonville Jaguars,Baltimore Ravens,28,27,@,Sun,4:00PM
+1,Tampa Bay Buccaneers,San Francisco 49ers,13,6,,Sun,4:00PM
+1,Denver Broncos,Kansas City Chiefs,19,3,,Sun,4:00PM
+1,New York Jets,Seattle Seahawks,41,3,@,Sun,4:00PM
+1,Washington Redskins,Carolina Panthers,24,10,@,Sun,8:00PM
+1,Green Bay Packers,Chicago Bears,38,24,,Mon,9:00PM
+2,New England Patriots,Indianapolis Colts,31,6,@,Sun,1:00PM
+2,Pittsburgh Steelers,Washington Redskins,14,13,,Sun,1:00PM
+2,San Francisco 49ers,St. Louis Rams,15,12,@,Sun,1:00PM
+2,Minnesota Vikings,Chicago Bears,27,24,@,Sun,1:00PM
+2,Carolina Panthers,Atlanta Falcons,9,6,@,Sun,1:00PM
+2,Baltimore Ravens,Cincinnati Bengals,23,10,,Sun,1:00PM
+2,Miami Dolphins,Tennessee Oilers,16,13,,Sun,1:00PM
+2,San Diego Chargers,New Orleans Saints,20,6,@,Sun,1:00PM
+2,Buffalo Bills,New York Jets,28,22,@,Sun,1:00PM
+2,Tampa Bay Buccaneers,Detroit Lions,24,17,@,Sun,1:00PM
+2,Philadelphia Eagles,Green Bay Packers,10,9,,Sun,4:00PM
+2,Jacksonville Jaguars,New York Giants,40,13,,Sun,4:00PM
+2,Denver Broncos,Seattle Seahawks,35,14,@,Sun,4:00PM
+2,Arizona Cardinals,Dallas Cowboys,25,22,,Sun,8:00PM
+2,Kansas City Chiefs,Oakland Raiders,28,27,@,Mon,9:00PM
+3,Tampa Bay Buccaneers,Minnesota Vikings,28,14,@,Sun,1:00PM
+3,Kansas City Chiefs,Buffalo Bills,22,16,,Sun,1:00PM
+3,Detroit Lions,Chicago Bears,32,7,@,Sun,1:00PM
+3,Baltimore Ravens,New York Giants,24,23,@,Sun,1:00PM
+3,Green Bay Packers,Miami Dolphins,23,18,,Sun,1:00PM
+3,Oakland Raiders,Atlanta Falcons,36,31,@,Sun,1:00PM
+3,Washington Redskins,Arizona Cardinals,19,13,,Sun,1:00PM
+3,Denver Broncos,St. Louis Rams,35,14,,Sun,4:00PM
+3,Seattle Seahawks,Indianapolis Colts,31,3,@,Sun,4:00PM
+3,Carolina Panthers,San Diego Chargers,26,7,@,Sun,4:00PM
+3,San Francisco 49ers,New Orleans Saints,33,7,,Sun,4:00PM
+3,New England Patriots,New York Jets,27,24,,Sun,8:00PM
+3,Dallas Cowboys,Philadelphia Eagles,21,20,,Mon,9:00PM
+4,Baltimore Ravens,Tennessee Oilers,36,10,@,Sun,1:00PM
+4,New Orleans Saints,Detroit Lions,35,17,,Sun,1:00PM
+4,Kansas City Chiefs,Carolina Panthers,35,14,@,Sun,1:00PM
+4,New York Jets,Oakland Raiders,23,22,,Sun,1:00PM
+4,New England Patriots,Chicago Bears,31,3,,Sun,1:00PM
+4,Green Bay Packers,Minnesota Vikings,38,32,,Sun,1:00PM
+4,Denver Broncos,Cincinnati Bengals,38,20,,Sun,4:00PM
+4,Seattle Seahawks,San Diego Chargers,26,22,,Sun,4:00PM
+4,Buffalo Bills,Indianapolis Colts,37,35,,Sun,4:00PM
+4,St. Louis Rams,New York Giants,13,3,,Sun,4:00PM
+4,San Francisco 49ers,Atlanta Falcons,34,7,,Sun,4:00PM
+4,Tampa Bay Buccaneers,Miami Dolphins,31,21,,Sun,8:00PM
+4,Jacksonville Jaguars,Pittsburgh Steelers,30,21,,Mon,9:00PM
+5,Washington Redskins,Jacksonville Jaguars,24,12,,Sun,1:00PM
+5,Tampa Bay Buccaneers,Arizona Cardinals,19,18,,Sun,1:00PM
+5,Pittsburgh Steelers,Tennessee Oilers,37,24,,Sun,1:00PM
+5,Denver Broncos,Atlanta Falcons,29,21,@,Sun,1:00PM
+5,New York Giants,New Orleans Saints,14,9,,Sun,1:00PM
+5,Detroit Lions,Green Bay Packers,26,15,,Sun,1:00PM
+5,New York Jets,Cincinnati Bengals,31,14,@,Sun,4:00PM
+5,Dallas Cowboys,Chicago Bears,27,3,,Sun,4:00PM
+5,San Diego Chargers,Baltimore Ravens,21,17,,Sun,4:00PM
+5,Kansas City Chiefs,Seattle Seahawks,20,17,,Sun,4:00PM
+5,Oakland Raiders,St. Louis Rams,35,17,,Sun,4:00PM
+5,Minnesota Vikings,Philadelphia Eagles,28,19,,Sun,8:00PM
+5,San Francisco 49ers,Carolina Panthers,34,21,@,Mon,9:00PM
+6,Pittsburgh Steelers,Baltimore Ravens,42,34,@,Sun,1:00PM
+6,Jacksonville Jaguars,Cincinnati Bengals,21,13,,Sun,1:00PM
+6,Philadelphia Eagles,Washington Redskins,24,10,,Sun,1:00PM
+6,Buffalo Bills,Detroit Lions,22,13,,Sun,1:00PM
+6,New York Giants,Dallas Cowboys,20,17,,Sun,1:00PM
+6,Miami Dolphins,Kansas City Chiefs,17,14,,Sun,1:00PM
+6,Green Bay Packers,Tampa Bay Buccaneers,21,16,,Sun,1:00PM
+6,Minnesota Vikings,Arizona Cardinals,20,19,@,Sun,4:00PM
+6,Seattle Seahawks,Tennessee Oilers,16,13,,Sun,4:00PM
+6,New York Jets,Indianapolis Colts,16,12,@,Sun,4:00PM
+6,San Diego Chargers,Oakland Raiders,25,10,@,Sun,4:00PM
+6,New Orleans Saints,Chicago Bears,20,17,@,Sun,8:00PM
+6,Denver Broncos,New England Patriots,34,13,,Mon,9:00PM
+7,New England Patriots,Buffalo Bills,33,6,,Sun,1:00PM
+7,Miami Dolphins,New York Jets,31,20,@,Sun,1:00PM
+7,Jacksonville Jaguars,Philadelphia Eagles,38,21,,Sun,1:00PM
+7,Atlanta Falcons,New Orleans Saints,23,17,@,Sun,1:00PM
+7,Tennessee Oilers,Cincinnati Bengals,30,7,,Sun,1:00PM
+7,Green Bay Packers,Chicago Bears,24,23,@,Sun,1:00PM
+7,Detroit Lions,Tampa Bay Buccaneers,27,9,@,Sun,1:00PM
+7,Minnesota Vikings,Carolina Panthers,21,14,,Sun,4:00PM
+7,New York Giants,Arizona Cardinals,27,13,@,Sun,4:00PM
+7,San Francisco 49ers,St. Louis Rams,30,10,,Sun,4:00PM
+7,Pittsburgh Steelers,Indianapolis Colts,24,22,,Sun,8:00PM
+7,Washington Redskins,Dallas Cowboys,21,16,,Mon,9:00PM
+8,Kansas City Chiefs,San Diego Chargers,31,3,,Thu,8:00PM
+8,New York Jets,New England Patriots,24,19,,Sun,1:00PM
+8,Dallas Cowboys,Jacksonville Jaguars,26,22,,Sun,1:00PM
+8,Carolina Panthers,New Orleans Saints,13,0,@,Sun,1:00PM
+8,San Francisco 49ers,Atlanta Falcons,35,28,@,Sun,1:00PM
+8,Philadelphia Eagles,Arizona Cardinals,13,10,,Sun,1:00PM
+8,Tennessee Oilers,Washington Redskins,28,14,,Sun,1:00PM
+8,Seattle Seahawks,St. Louis Rams,17,9,@,Sun,1:00PM
+8,Miami Dolphins,Baltimore Ravens,24,13,@,Sun,4:00PM
+8,Oakland Raiders,Denver Broncos,28,25,,Sun,4:00PM
+8,Pittsburgh Steelers,Cincinnati Bengals,26,10,@,Sun,4:00PM
+8,New York Giants,Detroit Lions,26,20,@,Sun,4:00PM
+8,Buffalo Bills,Indianapolis Colts,9,6,@,Mon,9:00PM
+9,New York Giants,Cincinnati Bengals,29,27,,Sun,1:00PM
+9,Denver Broncos,Buffalo Bills,23,20,@,Sun,1:00PM
+9,Kansas City Chiefs,St. Louis Rams,28,20,@,Sun,1:00PM
+9,Baltimore Ravens,Washington Redskins,20,17,@,Sun,1:00PM
+9,Philadelphia Eagles,Dallas Cowboys,13,12,,Sun,1:00PM
+9,San Francisco 49ers,New Orleans Saints,23,0,@,Sun,1:00PM
+9,Tennessee Oilers,Arizona Cardinals,41,14,@,Sun,4:00PM
+9,San Diego Chargers,Indianapolis Colts,35,19,,Sun,4:00PM
+9,Seattle Seahawks,Oakland Raiders,45,34,,Sun,4:00PM
+9,Pittsburgh Steelers,Jacksonville Jaguars,23,17,,Sun,4:00PM
+9,Minnesota Vikings,Tampa Bay Buccaneers,10,6,@,Sun,4:00PM
+9,Carolina Panthers,Atlanta Falcons,21,12,,Sun,8:00PM
+9,Chicago Bears,Miami Dolphins,36,33,@,Mon,9:00PM
+9,Green Bay Packers,New England Patriots,28,10,@,Mon,9:00PM
+10,Minnesota Vikings,New England Patriots,23,18,,Sun,1:00PM
+10,New York Jets,Baltimore Ravens,19,16,,Sun,1:00PM
+10,Washington Redskins,Chicago Bears,31,8,@,Sun,1:00PM
+10,Atlanta Falcons,St. Louis Rams,34,31,,Sun,1:00PM
+10,Tampa Bay Buccaneers,Indianapolis Colts,31,28,@,Sun,1:00PM
+10,Cincinnati Bengals,San Diego Chargers,38,31,,Sun,1:00PM
+10,Carolina Panthers,Oakland Raiders,38,14,,Sun,1:00PM
+10,Buffalo Bills,Miami Dolphins,9,6,,Sun,1:00PM
+10,San Francisco 49ers,Dallas Cowboys,17,10,,Sun,4:00PM
+10,Arizona Cardinals,Philadelphia Eagles,31,21,,Sun,4:00PM
+10,Jacksonville Jaguars,Tennessee Oilers,30,24,@,Sun,4:00PM
+10,Denver Broncos,Seattle Seahawks,30,27,,Sun,4:00PM
+10,Green Bay Packers,Detroit Lions,20,10,,Sun,8:00PM
+10,Kansas City Chiefs,Pittsburgh Steelers,13,10,,Mon,9:00PM
+11,Jacksonville Jaguars,Kansas City Chiefs,24,10,,Sun,1:00PM
+11,Minnesota Vikings,Chicago Bears,29,22,,Sun,1:00PM
+11,Tampa Bay Buccaneers,Atlanta Falcons,31,10,@,Sun,1:00PM
+11,Washington Redskins,Detroit Lions,30,7,,Sun,1:00PM
+11,Dallas Cowboys,Arizona Cardinals,24,6,,Sun,1:00PM
+11,Miami Dolphins,New York Jets,24,17,,Sun,1:00PM
+11,Green Bay Packers,St. Louis Rams,17,7,,Sun,1:00PM
+11,Cincinnati Bengals,Indianapolis Colts,28,13,@,Sun,1:00PM
+11,Denver Broncos,Carolina Panthers,34,0,,Sun,4:00PM
+11,New England Patriots,Buffalo Bills,31,10,@,Sun,4:00PM
+11,Tennessee Oilers,New York Giants,10,6,,Sun,4:00PM
+11,Seattle Seahawks,San Diego Chargers,37,31,@,Sun,4:00PM
+11,New Orleans Saints,Oakland Raiders,13,10,@,Sun,4:00PM
+11,Pittsburgh Steelers,Baltimore Ravens,37,0,,Sun,8:00PM
+11,San Francisco 49ers,Philadelphia Eagles,24,12,@,Mon,9:00PM
+12,New Orleans Saints,Seattle Seahawks,20,17,,Sun,1:00PM
+12,Pittsburgh Steelers,Cincinnati Bengals,20,3,,Sun,1:00PM
+12,Kansas City Chiefs,Denver Broncos,24,22,,Sun,1:00PM
+12,Baltimore Ravens,Philadelphia Eagles,10,10,,Sun,1:00PM
+12,Jacksonville Jaguars,Tennessee Oilers,17,9,,Sun,1:00PM
+12,Tampa Bay Buccaneers,New England Patriots,27,7,,Sun,1:00PM
+12,Indianapolis Colts,Green Bay Packers,41,38,,Sun,1:00PM
+12,Atlanta Falcons,St. Louis Rams,27,21,@,Sun,1:00PM
+12,Detroit Lions,Minnesota Vikings,38,15,,Sun,1:00PM
+12,New York Giants,Arizona Cardinals,19,10,,Sun,1:00PM
+12,Dallas Cowboys,Washington Redskins,17,14,,Sun,4:00PM
+12,San Francisco 49ers,Carolina Panthers,27,19,,Sun,4:00PM
+12,New York Jets,Chicago Bears,23,15,@,Sun,4:00PM
+12,Oakland Raiders,San Diego Chargers,38,13,@,Sun,8:00PM
+12,Miami Dolphins,Buffalo Bills,30,13,,Mon,9:00PM
+13,Detroit Lions,Indianapolis Colts,32,10,,Sun,1:00PM
+13,New England Patriots,Miami Dolphins,27,24,,Sun,1:00PM
+13,Chicago Bears,Tampa Bay Buccaneers,13,7,,Sun,1:00PM
+13,Atlanta Falcons,New Orleans Saints,20,3,,Sun,1:00PM
+13,Arizona Cardinals,Baltimore Ravens,16,13,@,Sun,1:00PM
+13,New York Jets,Minnesota Vikings,23,21,,Sun,1:00PM
+13,Philadelphia Eagles,Pittsburgh Steelers,23,20,,Sun,1:00PM
+13,Green Bay Packers,Dallas Cowboys,45,17,,Sun,1:00PM
+13,Tennessee Oilers,Buffalo Bills,31,14,,Sun,1:00PM
+13,Kansas City Chiefs,Seattle Seahawks,19,14,@,Sun,4:00PM
+13,Cincinnati Bengals,Jacksonville Jaguars,31,26,,Sun,4:00PM
+13,Carolina Panthers,St. Louis Rams,16,10,@,Sun,4:00PM
+13,San Francisco 49ers,San Diego Chargers,17,10,,Sun,4:00PM
+13,Washington Redskins,New York Giants,7,7,,Sun,8:00PM
+13,Denver Broncos,Oakland Raiders,31,3,,Mon,9:00PM
+14,Detroit Lions,Chicago Bears,55,20,,Thu,12:30PM
+14,Tennessee Oilers,Dallas Cowboys,27,14,@,Thu,4:00PM
+14,Buffalo Bills,New York Jets,20,10,,Sun,1:00PM
+14,St. Louis Rams,Washington Redskins,23,20,@,Sun,1:00PM
+14,New England Patriots,Indianapolis Colts,20,17,,Sun,1:00PM
+14,Kansas City Chiefs,San Francisco 49ers,44,9,,Sun,1:00PM
+14,Philadelphia Eagles,Cincinnati Bengals,44,42,,Sun,1:00PM
+14,Jacksonville Jaguars,Baltimore Ravens,29,27,,Sun,1:00PM
+14,New Orleans Saints,Carolina Panthers,16,13,@,Sun,1:00PM
+14,Miami Dolphins,Oakland Raiders,34,16,@,Sun,4:00PM
+14,Atlanta Falcons,Seattle Seahawks,24,17,@,Sun,4:00PM
+14,Pittsburgh Steelers,Arizona Cardinals,26,20,@,Sun,4:00PM
+14,Tampa Bay Buccaneers,New York Giants,20,8,@,Sun,4:00PM
+14,Denver Broncos,San Diego Chargers,38,28,@,Sun,8:00PM
+14,Green Bay Packers,Minnesota Vikings,27,11,@,Mon,9:00PM
+15,Cincinnati Bengals,Tennessee Oilers,41,14,,Thu,8:00PM
+15,Pittsburgh Steelers,Denver Broncos,35,24,,Sun,1:00PM
+15,Baltimore Ravens,Seattle Seahawks,31,24,,Sun,1:00PM
+15,New York Giants,Philadelphia Eagles,31,21,@,Sun,1:00PM
+15,Chicago Bears,Buffalo Bills,20,3,,Sun,1:00PM
+15,Green Bay Packers,Tampa Bay Buccaneers,17,6,@,Sun,1:00PM
+15,St. Louis Rams,New Orleans Saints,34,27,@,Sun,1:00PM
+15,Kansas City Chiefs,Oakland Raiders,30,0,,Sun,1:00PM
+15,New England Patriots,Jacksonville Jaguars,26,20,@,Sun,1:00PM
+15,San Francisco 49ers,Minnesota Vikings,28,17,,Sun,4:00PM
+15,Indianapolis Colts,New York Jets,22,14,@,Sun,4:00PM
+15,Atlanta Falcons,San Diego Chargers,14,3,@,Sun,4:00PM
+15,Washington Redskins,Arizona Cardinals,38,28,@,Sun,4:00PM
+15,Miami Dolphins,Detroit Lions,33,30,,Sun,8:00PM
+15,Carolina Panthers,Dallas Cowboys,23,13,@,Mon,9:00PM
+16,New York Giants,Washington Redskins,30,10,,Sat,12:30PM
+16,Pittsburgh Steelers,New England Patriots,24,21,@,Sat,4:00PM
+16,Atlanta Falcons,Philadelphia Eagles,20,17,,Sun,1:00PM
+16,Baltimore Ravens,Tennessee Oilers,21,19,,Sun,1:00PM
+16,Cincinnati Bengals,Dallas Cowboys,31,24,,Sun,1:00PM
+16,New York Jets,Tampa Bay Buccaneers,31,0,,Sun,1:00PM
+16,Detroit Lions,Minnesota Vikings,14,13,@,Sun,1:00PM
+16,Jacksonville Jaguars,Buffalo Bills,20,14,@,Sun,1:00PM
+16,Indianapolis Colts,Miami Dolphins,41,0,,Sun,1:00PM
+16,Seattle Seahawks,Oakland Raiders,22,21,@,Sun,4:00PM
+16,Kansas City Chiefs,San Diego Chargers,29,7,@,Sun,4:00PM
+16,New Orleans Saints,Arizona Cardinals,27,10,,Sun,4:00PM
+16,Green Bay Packers,Carolina Panthers,31,10,@,Sun,4:00PM
+16,Chicago Bears,St. Louis Rams,13,10,@,Sun,8:00PM
+16,San Francisco 49ers,Denver Broncos,34,17,,Mon,9:00PM
+17,Green Bay Packers,Buffalo Bills,31,21,,Sat,12:30PM
+17,St. Louis Rams,Carolina Panthers,30,18,@,Sat,4:00PM
+17,Tampa Bay Buccaneers,Chicago Bears,31,15,,Sun,1:00PM
+17,Minnesota Vikings,Indianapolis Colts,39,28,,Sun,1:00PM
+17,New York Giants,Dallas Cowboys,20,7,@,Sun,1:00PM
+17,Kansas City Chiefs,New Orleans Saints,25,13,,Sun,1:00PM
+17,Tennessee Oilers,Pittsburgh Steelers,16,6,,Sun,1:00PM
+17,Cincinnati Bengals,Baltimore Ravens,16,14,,Sun,1:00PM
+17,Washington Redskins,Philadelphia Eagles,35,32,,Sun,1:00PM
+17,Jacksonville Jaguars,Oakland Raiders,20,9,@,Sun,4:00PM
+17,Arizona Cardinals,Atlanta Falcons,29,26,,Sun,4:00PM
+17,Denver Broncos,San Diego Chargers,38,3,,Sun,4:00PM
+17,Detroit Lions,New York Jets,13,10,,Sun,4:00PM
+17,Seattle Seahawks,San Francisco 49ers,38,9,,Sun,8:00PM
+17,New England Patriots,Miami Dolphins,14,12,@,Mon,9:00PM

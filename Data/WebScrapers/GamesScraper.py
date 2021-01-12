@@ -4,7 +4,7 @@ import pandas as pd
 DRIVER_PATH = 'C:/Projects/Selenium/chromedriver/chromedriver.exe'
 driver = webdriver.Chrome(executable_path=DRIVER_PATH)
 
-driver.get('https://www.pro-football-reference.com/years/1995/games.htm')
+driver.get('https://www.pro-football-reference.com/years/1999/games.htm')
 
 weekNum = driver.find_elements_by_xpath("//th[@class='right '][@data-stat='week_num']")
 winnerName = driver.find_elements_by_xpath('//td[@data-stat="winner"]')
@@ -41,7 +41,7 @@ for i in range(len(weekNum)):
         pass
 driver.close()
 
-GameDataFrame1995 = pd.DataFrame ({
+DF = pd.DataFrame ({
     'Week': weeks,
     'Winner': winners,
     'Loser' : losers,
@@ -53,6 +53,6 @@ GameDataFrame1995 = pd.DataFrame ({
 })
 
 path = r'C:\Projects\NFLPredictor\Data\Train-Data'
-name = ""
+name = "\Games1999"
 location = path + name
-GameDataFrame1995.to_csv(location, index=False)
+DF.to_csv(location, index=False)
