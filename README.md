@@ -1,6 +1,6 @@
 # NFL Predictor 
 
-###Background
+### Background
 According to bettingpros.com, only 13 of the top 80 bettors had a win percentage of 70% or higher on
 NFL Moneyline (https://en.wikipedia.org/wiki/Fixed-odds_betting#Moneyline_odds).
 
