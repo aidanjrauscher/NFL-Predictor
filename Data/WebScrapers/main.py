@@ -40,6 +40,6 @@ StatDataFrame1995 = pd.DataFrame ({
 })
 
 path = r'C:\Projects\NFLPredictor\Data\Train-Data'
-name = "\OffensiveStats1995"
+name = "\OffensiveStats1995.csv"
 location = path + name
 StatDataFrame1995.to_csv(location, index=False)
