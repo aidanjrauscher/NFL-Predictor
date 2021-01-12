@@ -1,3 +1,6 @@
+#Use pip install pandas
+#And pip install -U scikit-learn
+
 import numpy as np #to use linear algebra
 import pandas as pd #For data processing our CSV Files
 import os
@@ -17,7 +20,7 @@ test_data.head()
 
 from sklearn.ensemble import RandomForestClassifier #Use RandomForestClassifier to Train
 
-y = train_data["Won"] #have Win = 1 Loss = 0
+y = train_data["Won"] #have Win for team A = 1 Loss for team A = 0
 features = ["PassYardsA", "PassYardsB", "YardsPerAttemptA", "YardsPerAttemptB"]#Add more! 
 x = pd.get_dummies(train_data[features])
 x_test = pd.get_dummies(test_data[features])
@@ -28,4 +31,4 @@ predictions = model.predict(x_test)
 
 output = pd.DataFrame({'Team': test_data.PassengerId, 'Won': predictions})
 
-#Have output put into specific folder 
+#TODO Have output put into specific folder 
