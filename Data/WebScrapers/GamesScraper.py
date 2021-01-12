@@ -52,5 +52,7 @@ GameDataFrame1995 = pd.DataFrame ({
     'Time': times,
 })
 
-
-GameDataFrame1995.to_csv('Games1995.csv', index=False)
+path = r'C:\Projects\NFLPredictor\Data\Train-Data'
+name = ""
+location = path + name
+GameDataFrame1995.to_csv(location, index=False)
