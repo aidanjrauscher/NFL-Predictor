@@ -6,11 +6,11 @@ NFL Moneyline (https://en.wikipedia.org/wiki/Fixed-odds_betting#Moneyline_odds) 
 
 This project aims to see if a Machine Learning model can join the 70%+ club using readily available team stats.
 
-##Method
+## Method
 
-##Results
+## Results
 
-##Conclusion
+## Conclusion
 
 
 
