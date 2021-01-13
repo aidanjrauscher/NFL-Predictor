@@ -1,4 +1,3 @@
-from selenium import webdriver
 import pandas as pd
 import random
 
@@ -8,10 +7,11 @@ statsDF = pd.read_csv(r'C:\Projects\NFLPredictor\Data\Train-Data\CombinedStats\C
 
 gameDF = pd.read_csv(r'C:\Projects\NFLPredictor\Data\Train-Data\Games\Games1995.csv')
 
-#for each game, get stats for both teams, remove day of week and time
-#get first name for game
-#find that team in statsDF
+
 team1 = []
+team1outcome = []
+team1score = []
+team1location = []
 t1AvgPts = []
 t1AvgYads = []
 t1NPYA = []
@@ -27,6 +27,9 @@ t13rdDef = []
 t14thDef = []
 
 team2 = []
+team2outcome = []
+team2score = []
+team2location = []
 t2AvgPts = []
 t2AvgYads = []
 t2NPYA = []
@@ -41,14 +44,35 @@ t2NRYADef = []
 t23rdDef = []
 t24thDef = []
 
-for i in range(len(gameDF["Winner"])):
 
-    teamOne = gameDF["Winner"][i]
-    teamTwo = gameDF['Loser'][i]
-    teamOneStats = statsDF.loc[statsDF['Name']==teamOne]
-    teamTwoStats = statsDF.loc[statsDF['Name']==teamTwo]
+
+for i in range(len(gameDF["Winner"])):
+    teamInfo = []
+    #randomly assigns team 1 and team 2
+    first = random.randrange(0, 2)
+    a = gameDF["Winner"][i]
+    b = gameDF['Loser'][i]
+    scoreW = gameDF['PtsW'][i]
+    scoreL = gameDF['PtsL'][i]
+    teamInfo.append([a, statsDF.loc[statsDF['Name']==a], 1, scoreW])
+    teamInfo.append([b, statsDF.loc[statsDF['Name']==b], 0, scoreL])
+    if gameDF["Location"][i] == '@':
+        teamInfo[0].append('Away')
+        teamInfo[1].append('Home')
+    else:
+        teamInfo[1].append('Away')
+        teamInfo[0].append('Home')
+
+    #collect all team 1 and team 2 information/stats for each game
+    teamOne = teamInfo[first][0]
+    teamOneStats = teamInfo[first][1]
+    teamTwo = teamInfo[1-first][0]
+    teamTwoStats = teamInfo[1-first][1]
 
     team1.append(teamOne)
+    team1outcome.append(teamInfo[first][2])
+    team1score.append(teamInfo[first][3])
+    team1location.append(teamInfo[first][4])
 
     t1AvgPts.append(teamOneStats['Avg Points'].item())
     t1AvgYads.append(teamOneStats['Avg Yards'].item())
@@ -65,6 +89,9 @@ for i in range(len(gameDF["Winner"])):
     t14thDef.append(teamOneStats['4th%_y'].item())
 
     team2.append(teamTwo)
+    team2outcome.append(teamInfo[1-first][2])
+    team2score.append(teamInfo[1-first][3])
+    team2location.append(teamInfo[1 - first][4])
 
     t2AvgPts.append(teamTwoStats['Avg Points'].item())
     t2AvgYads.append(teamTwoStats['Avg Yards'].item())
@@ -84,6 +111,9 @@ for i in range(len(gameDF["Winner"])):
 
 everything = pd.DataFrame ({
     'T1': team1,
+    'T1 Outcome': team1outcome,
+    'T1 Score': team1score,
+    'T1 Location': team1location,
     'T1 Avg Points': t1AvgPts,
     'T1 Avg Yards': t1AvgYads,
     'T1 NPY/A': t1NPYA,
@@ -98,6 +128,9 @@ everything = pd.DataFrame ({
     'T1 4th% Def': t14thDef,
 
     'T2': team2,
+    'T2 Outcome': team2outcome,
+    'T2 Score': team2score,
+    'T2 Location':  team2location,
     'T2 Avg Points': t2AvgPts,
     'T2 Avg Yards': t2AvgYads,
     'T2 NPY/A': t2NPYA,
@@ -110,15 +143,12 @@ everything = pd.DataFrame ({
     'T2 NRY/A Def': t2NRYADef,
     'T2 3rd% Def': t23rdDef,
     'T2 4th% Def': t24thDef,
-
-
 })
 
 
 
-location = r'C:\Projects\NFLPredictor\Data\WebScrapers'
+location = r'C:\Projects\NFLPredictor\Data\Train-Data\Matchups'
 name = '\MatchUp1995.csv'
 path = location + name
 everything.to_csv(path, index=False)
-
 
