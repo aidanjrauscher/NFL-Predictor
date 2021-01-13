@@ -1,6 +1,3 @@
-### Source
-All data has been scraped from <a href='https://www.pro-football-reference.com/'> _**pro-football-reference.com**_ </a>. 
-
 ### Explanation of Collected Data 
 All data falls into five categories, and represents game information and stats from 1994 to 2020. 
 
@@ -18,5 +15,5 @@ The model will be trained with data from 1995 to 2018 for ther following reasons
 ### Collection of Data
 All data was collected with a set of scrapers utilizing the selenium and pandas packages. 
 
-
-
+### Source
+All data has been scraped from <a href='https://www.pro-football-reference.com/'> _**Pro Football Reference**_ </a>. 
