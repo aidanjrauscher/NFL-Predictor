@@ -10,6 +10,7 @@ This project aims to see if we can use Machine Learning with readily available t
 [Data Guide](/Data/DATAGUIDE.md)
 
 ## Method
+For our first prediction method we used the random forest classifier model. This model fits a specified number of decision trees and chooses the best one.
 
 ## Results
 
