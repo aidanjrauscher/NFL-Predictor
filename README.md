@@ -6,11 +6,18 @@ NFL Moneyline (<a href="https://en.wikipedia.org/wiki/Fixed-odds_betting#Moneyli
 
 This project aims to see if we can use Machine Learning and readily available team stats to join the 70%+ club.
 
+## Data
+(NFL-Predictor/Data/DATAGUIDE.md)
+
 ## Method
 
 ## Results
 
 ## Conclusion
+
+
+
+
 
 
 
