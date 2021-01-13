@@ -13,6 +13,13 @@ yrds = driver.find_elements_by_xpath("//*[@id='team_stats']/tbody/tr/td[@data-st
 npya = driver.find_elements_by_xpath("//*[@id='team_stats']/tbody/tr/td[@data-stat ='pass_net_yds_per_att']")
 nrya = driver.find_elements_by_xpath("//*[@id='team_stats']/tbody/tr/td[@data-stat='rush_yds_per_att']")
 
+name = driver.find_elements_by_xpath('/html/body/div[2]/div[5]/div[9]/div[3]/div[2]/table/tbody/tr/td[@data-stat="team"]/a')
+gamesPlayed = driver.find_elements_by_xpath("/html/body/div[2]/div[5]/div[9]/div[3]/div[2]/table/tbody/tr/td[@data-stat='g']")
+pts = driver.find_elements_by_xpath("/html/body/div[2]/div[5]/div[9]/div[3]/div/table/tbody/tr/td[@data-stat='points']")
+
+yrds = driver.find_elements_by_xpath("/html/body/div[2]/div[5]/div[9]/div[3]/div[2]/table/tbody/tr/td[@data-stat='total_yards']")
+npya = driver.find_elements_by_xpath("/html/body/div[2]/div[5]/div[9]/div[3]/div[2]/table/tbody/tr/td[@data-stat ='pass_net_yds_per_att']")
+nrya = driver.find_elements_by_xpath("/html/body/div[2]/div[5]/div[9]/div[3]/div[2]/table/tbody/tr/td[@data-stat='rush_yds_per_att']")
 names = []
 avgPts = []
 avgYrds = []
