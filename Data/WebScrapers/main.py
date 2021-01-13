@@ -4,43 +4,33 @@ import pandas as pd
 DRIVER_PATH = 'C:/Projects/Selenium/chromedriver/chromedriver.exe'
 driver = webdriver.Chrome(executable_path=DRIVER_PATH)
 
-driver.get('https://www.pro-football-reference.com/years/2020/index.htm')
+driver.get('https://www.pro-football-reference.com/years/2018/opp.htm')
 
-name = driver.find_elements_by_xpath('/html/body/div[2]/div[5]/div[8]/div[3]/div[2]/table/tbody/tr/td[@data-stat="team"]/a')
-gamesPlayed = driver.find_elements_by_xpath("/html/body/div[2]/div[5]/div[8]/div[3]/div[2]/table/tbody/tr/td[@data-stat='g']")
-pts = driver.find_elements_by_xpath("/html/body/div[2]/div[5]/div[8]/div[3]/div[2]/table/tbody/tr/td[@data-stat='points']")
-yrds = driver.find_elements_by_xpath("/html/body/div[2]/div[5]/div[8]/div[3]/div[2]/table/tbody/tr/td[@data-stat='total_yards']")
-npya = driver.find_elements_by_xpath("/html/body/div[2]/div[5]/div[8]/div[3]/div[2]/table/tbody/tr/td[@data-stat ='pass_net_yds_per_att']")
-nrya = driver.find_elements_by_xpath("/html/body/div[2]/div[5]/div[8]/div[3]/div[2]/table/tbody/tr/td[@data-stat='rush_yds_per_att']")
+name = driver.find_elements_by_xpath('/html/body/div[2]/div[5]/div[10]/div[3]/div/table/tbody/tr/td[@data-stat="team"]/a')
+third = driver.find_elements_by_xpath("/html/body/div[2]/div[5]/div[10]/div[3]/div/table/tbody/tr/td[@data-stat='third_down_pct']")
+fourth = driver.find_elements_by_xpath('/html/body/div[2]/div[5]/div[10]/div[3]/div/table/tbody/tr/td[@data-stat="fourth_down_pct"]')
 
 
 names = []
-avgPts = []
-avgYrds = []
-NPYperA = []
-NRYperA = []
+per3rd = []
+per4th = []
 
 
 
-for i in range(len(pts)):
-    games = int(gamesPlayed[i].text)
+for i in range(len(third)):
     names.append(name[i].text)
-    avgPts.append(int(pts[i].text)/games)
-    avgYrds.append(int(yrds[i].text)/games)
-    NPYperA.append(float(npya[i].text))
-    NRYperA.append(float(nrya[i].text))
+    per3rd.append(third[i].text)
+    per4th.append(fourth[i].text)
 
 driver.close()
 
-StatDataFrame1995 = pd.DataFrame ({
+DF = pd.DataFrame ({
     'Name': names,
-    'Avg Points': avgPts,
-    'Avg Yards': avgYrds,
-    'NPY/A': NPYperA,
-    'NRY/A': NRYperA,
+    '3rd%': per3rd,
+    '4th%': per4th,
 })
 
-path = r'C:\Projects\NFLPredictor\Data\Test-Data\OffensiveStats'
-name = "\OffensiveStats2020.csv"
+path = r'C:\Projects\NFLPredictor\Data\Train-Data\DefConvStats'
+name = "\DefConv2018.csv"
 location = path + name
-StatDataFrame1995.to_csv(location, index=False)
+DF.to_csv(location, index=False)
