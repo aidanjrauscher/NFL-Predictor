@@ -17,10 +17,10 @@ For our first prediction method we used the random forest classifier model. This
 
 ## Conclusion
 
+## References
 
-
-
-
+## Further Reading
+* https://beta.vu.nl/nl/Images/werkstuk-bosch_tcm235-888637.pdf
 
 
 
