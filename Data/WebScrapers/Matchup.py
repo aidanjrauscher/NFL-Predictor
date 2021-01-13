@@ -1,5 +1,6 @@
 from selenium import webdriver
 import pandas as pd
+import random
 
 #read csv files:
 
@@ -41,6 +42,7 @@ t23rdDef = []
 t24thDef = []
 
 for i in range(len(gameDF["Winner"])):
+
     teamOne = gameDF["Winner"][i]
     teamTwo = gameDF['Loser'][i]
     teamOneStats = statsDF.loc[statsDF['Name']==teamOne]
