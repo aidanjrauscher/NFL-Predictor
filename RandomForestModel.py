@@ -29,6 +29,6 @@ model = RandomForestClassifier(n_estimators=100, max_depth=5, random_state=1)#Ac
 model.fit(x, y)
 predictions = model.predict(x_test)
 
-output = pd.DataFrame({'Team': test_data.PassengerId, 'Won': predictions})
+output = pd.DataFrame({'Team': test_data.Winner, 'Won': predictions})
 
 #TODO Have output put into specific folder 
