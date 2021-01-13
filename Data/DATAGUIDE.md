@@ -16,6 +16,7 @@ The model will be trained with data from 1995 to 2018 for ther following reasons
 2. From 1995 on the average number of points scored per team per game never fell below 20 for any given season. 
 
 ### Collection of Data
+All data was collected with a set of scrapers utilizing the selenium and pandas packages. 
 
 
 
