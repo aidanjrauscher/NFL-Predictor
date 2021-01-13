@@ -21,5 +21,20 @@ The model will be trained with data from 1995 to 2018 for ther following reasons
 ### Collection of Data
 All data was collected with a set of scrapers utilizing the selenium and pandas packages. The scrapers and any scripts used to manipulate the CSV files can be found [here](/Data/WebScrapers). 
 
+### Possible Changes to Dataa
+Including the following stats may create a more accurate model:
+* FG%: compares total field goals made vs total field goal attempts
+* INT%: percentage of times intercepted when attempting to pass
+* SK%: percentage of times sacked when attempting to pass
+* Pen: penalties committed by team and accepted 
+* Record and strength of record 
+
+In addition, the following information, even if not easily quantifiable, may be useful in future attempts:
+* Injured or benched players for a game
+* Weather for a game 
+* Whether a game is a division game or not
+* How signifigant a game is for a team's playoff chances
+
+
 ### Source
 All data has been scraped from <a href='https://www.pro-football-reference.com/'> _**Pro Football Reference**_ </a>. 
