@@ -21,7 +21,7 @@ The model will be trained with data from 1995 to 2018 for ther following reasons
 ### Collection of Data
 All data was collected with a set of scrapers utilizing the selenium and pandas packages. The scrapers and any scripts used to manipulate the CSV files can be found [here](/Data/WebScrapers). 
 
-### Possible Changes to Dataa
+### Possible Changes to Data
 Including the following stats may create a more accurate model:
 * FG%: compares total field goals made vs total field goal attempts
 * INT%: percentage of times intercepted when attempting to pass
