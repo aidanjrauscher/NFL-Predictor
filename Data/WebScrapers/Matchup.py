@@ -3,9 +3,9 @@ import random
 
 #read csv files:
 
-statsDF = pd.read_csv(r'C:\Projects\NFLPredictor\Data\Train-Data\CombinedStats\CombinedStats1995.csv')
+statsDF = pd.read_csv(r'C:\Projects\NFLPredictor\Data\Train-Data\CombinedStats\CombinedStats1997.csv')
 
-gameDF = pd.read_csv(r'C:\Projects\NFLPredictor\Data\Train-Data\Games\Games1995.csv')
+gameDF = pd.read_csv(r'C:\Projects\NFLPredictor\Data\Train-Data\Games\Games1997.csv')
 
 
 team1 = []
@@ -56,6 +56,9 @@ for i in range(len(gameDF["Winner"])):
     scoreL = gameDF['PtsL'][i]
     teamInfo.append([a, statsDF.loc[statsDF['Name']==a], 1, scoreW])
     teamInfo.append([b, statsDF.loc[statsDF['Name']==b], 0, scoreL])
+    if scoreW == scoreL:
+        teamInfo[0][2] = 0
+        teamInfo[1][2] = 0
     if gameDF["Location"][i] == '@':
         teamInfo[0].append('Away')
         teamInfo[1].append('Home')
@@ -148,7 +151,7 @@ everything = pd.DataFrame ({
 
 
 location = r'C:\Projects\NFLPredictor\Data\Train-Data\Matchups'
-name = '\MatchUp1995.csv'
+name = '\MatchUp1997.csv'
 path = location + name
 everything.to_csv(path, index=False)
 
