@@ -22,6 +22,7 @@ from sklearn.ensemble import RandomForestClassifier #Use RandomForestClassifier 
 
 y = train_data["T1 Outcome"] 
 features = ["T1 Location", "T2 Location", "T1 Avg Points", "T2 Avg Points", "T1 Avg Yards","T2 Avg Yards", "T1 NPY/A", "T2 NPY/A", "T1 NRY/A", "T2 NRY/A", "T1 Avg Points Def", "T2 Avg Points Def", "T1 Avg Yards Def", "T2 Avg Yards Def", "T1 NPY/A Def", "T2 NPY/A Def","T1 NRY/A Def", "T2 NRY/A Def", "T1 4th Def", "T2 4th Def", "T1 3rd", "T2 3rd", "T1 4th", "T2 4th", "T1 3rd Def", "T2 3rd Def"]
+#Fit with features we want
 x = pd.get_dummies(train_data[features])
 x_test = pd.get_dummies(test_data[features])
 
