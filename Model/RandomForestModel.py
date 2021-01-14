@@ -30,5 +30,4 @@ model.fit(x, y)
 predictions = model.predict(x_test)
 
 output = pd.DataFrame({'T1': test_data.T1, 'T1 Outcome': predictions})
-
-#TODO Have output put into specific folder 
+output.to_csv('file.csv', index=False)
