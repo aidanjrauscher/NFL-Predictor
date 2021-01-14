@@ -45,9 +45,11 @@ t2NRYADef = []
 t23rdDef = []
 t24thDef = []
 
+
+
 def dePercentify(per):
     num = per.replace('%', '')
-    return int(num)/100
+    return float(num)/100
 
 for i in range(len(gameDF["Winner"])):
     teamInfo = []
