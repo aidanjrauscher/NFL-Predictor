@@ -2,10 +2,11 @@ import pandas as pd
 import random
 
 #read csv files:
+year = 2018
 
-statsDF = pd.read_csv(r'C:\Projects\NFLPredictor\Data\Train-Data\CombinedStats\CombinedStats1997.csv')
+statsDF = pd.read_csv(r'C:\Projects\NFLPredictor\Data\Train-Data\CombinedStats\CombinedStats'+str(year)+'.csv')
 
-gameDF = pd.read_csv(r'C:\Projects\NFLPredictor\Data\Train-Data\Games\Games1997.csv')
+gameDF = pd.read_csv(r'C:\Projects\NFLPredictor\Data\Train-Data\Games\Games'+str(year)+'.csv')
 
 
 team1 = []
@@ -44,7 +45,9 @@ t2NRYADef = []
 t23rdDef = []
 t24thDef = []
 
-
+def dePercentify(per):
+    num = per.replace('%', '')
+    return int(num)/100
 
 for i in range(len(gameDF["Winner"])):
     teamInfo = []
@@ -81,15 +84,15 @@ for i in range(len(gameDF["Winner"])):
     t1AvgYads.append(teamOneStats['Avg Yards'].item())
     t1NPYA.append(teamOneStats['NPY/A'].item())
     t1NRYA.append(teamOneStats['NRY/A'].item())
-    t13rd.append(teamOneStats['3rd%_x'].item())
-    t14th.append(teamOneStats['4th%_x'].item())
+    t13rd.append(dePercentify(teamOneStats['3rd%_x'].item()))
+    t14th.append(dePercentify(teamOneStats['4th%_x'].item()))
 
     t1AvgPtsDef.append(teamOneStats['Avg Points Let'].item())
     t1AvgYadsDef.append(teamOneStats['Avg Yards Let'].item())
     t1NPYADef.append(teamOneStats['NPY/A Let'].item())
     t1NRYADef.append(teamOneStats['NRY/A Let'].item())
-    t13rdDef.append(teamOneStats['3rd%_y'].item())
-    t14thDef.append(teamOneStats['4th%_y'].item())
+    t13rdDef.append(dePercentify(teamOneStats['3rd%_y'].item()))
+    t14thDef.append(dePercentify(teamOneStats['4th%_y'].item()))
 
     team2.append(teamTwo)
     team2outcome.append(teamInfo[1-first][2])
@@ -100,15 +103,15 @@ for i in range(len(gameDF["Winner"])):
     t2AvgYads.append(teamTwoStats['Avg Yards'].item())
     t2NPYA.append(teamTwoStats['NPY/A'].item())
     t2NRYA.append(teamTwoStats['NRY/A'].item())
-    t23rd.append(teamTwoStats['3rd%_x'].item())
-    t24th.append(teamTwoStats['4th%_x'].item())
+    t23rd.append(dePercentify(teamTwoStats['3rd%_x'].item()))
+    t24th.append(dePercentify(teamTwoStats['4th%_x'].item()))
 
     t2AvgPtsDef.append(teamTwoStats['Avg Points Let'].item())
     t2AvgYadsDef.append(teamTwoStats['Avg Yards Let'].item())
     t2NPYADef.append(teamTwoStats['NPY/A Let'].item())
     t2NRYADef.append(teamTwoStats['NRY/A Let'].item())
-    t23rdDef.append(teamTwoStats['3rd%_y'].item())
-    t24thDef.append(teamTwoStats['4th%_y'].item())
+    t23rdDef.append(dePercentify(teamTwoStats['3rd%_y'].item()))
+    t24thDef.append(dePercentify(teamTwoStats['4th%_y'].item()))
 
 
 
@@ -121,14 +124,14 @@ everything = pd.DataFrame ({
     'T1 Avg Yards': t1AvgYads,
     'T1 NPY/A': t1NPYA,
     'T1 NRY/A':t1NRYA,
-    'T1 3rd%': t13rd,
-    'T1 4th%': t14th,
+    'T1 3rd': t13rd,
+    'T1 4th': t14th,
     'T1 Avg Points Def' : t1AvgPtsDef,
     'T1 Avg Yards Def': t1AvgYadsDef,
     'T1 NPY/A Def': t1NPYADef,
     'T1 NRY/A Def': t1NRYADef,
-    'T1 3rd% Def': t13rdDef,
-    'T1 4th% Def': t14thDef,
+    'T1 3rd Def': t13rdDef,
+    'T1 4th Def': t14thDef,
 
     'T2': team2,
     'T2 Outcome': team2outcome,
@@ -138,20 +141,20 @@ everything = pd.DataFrame ({
     'T2 Avg Yards': t2AvgYads,
     'T2 NPY/A': t2NPYA,
     'T2 NRY/A':t2NRYA,
-    'T2 3rd%': t23rd,
-    'T2 4th%': t24th,
+    'T2 3rd': t23rd,
+    'T2 4th': t24th,
     'T2 Avg Points Def' : t2AvgPtsDef,
     'T2 Avg Yards Def': t2AvgYadsDef,
     'T2 NPY/A Def': t2NPYADef,
     'T2 NRY/A Def': t2NRYADef,
-    'T2 3rd% Def': t23rdDef,
-    'T2 4th% Def': t24thDef,
+    'T2 3rd Def': t23rdDef,
+    'T2 4th Def': t24thDef,
 })
 
 
 
 location = r'C:\Projects\NFLPredictor\Data\Train-Data\Matchups'
-name = '\MatchUp1997.csv'
+name = '\MatchUp'+str(year)+'.csv'
 path = location + name
 everything.to_csv(path, index=False)
 
