@@ -1,23 +1,15 @@
 import pandas as pd
-import random
 
+df1 = pd.read_csv(r'C:/Projects/NFLPredictor/Data/Train-Data/Matchups/MatchUp1996.csv')
+df2 = pd.read_csv(r'C:/Projects/NFLPredictor/Data/Train-Data/Matchups/MatchUp1997.csv')
+df3 = pd.read_csv(r'C:/Projects/NFLPredictor/Data/Train-Data/Matchups/MatchUp1998.csv')
+df4 = pd.read_csv(r'C:/Projects/NFLPredictor/Data/Train-Data/Matchups/MatchUp1999.csv')
+df5 = pd.read_csv(r'C:/Projects/NFLPredictor/Data/Train-Data/Matchups/MatchUp2000.csv')
+df6 = pd.read_csv(r'C:/Projects/NFLPredictor/Data/Train-Data/Matchups/MatchUp2001.csv')
+df7 = pd.read_csv(r'C:/Projects/NFLPredictor/Data/Train-Data/Compiled/test.csv')
+df8 = pd.read_csv(r'C:/Projects/NFLPredictor/Data/Test-Data/Matchups/MatchUp2019.csv')
+df9 = pd.read_csv(r'C:/Projects/NFLPredictor/Data/Test-Data/Matchups/MatchUp2020.csv')
 
-modelNum = 1
-year = 2019
+tet = pd.concat([df1, df2, df3, df4, df5, df6, df7, df8, df9],axis=0)
 
-
-path1 = r'C:\Projects\NFLPredictor\Model\StoredModels\amodel' + str(modelNum) + '.csv'
-modelDF = pd.read_csv(path1)
-
-path2 = r'C:\Projects\NFLPredictor\Data\Test-Data\Matchups\MatchUp'+ str(year)  +'.csv'
-gameDF = pd.read_csv(path2)
-
-right = 0
-wrong = 0
-for i in range(len(modelDF["T1"])):
-    if gameDF["T1 Outcome"][i] == modelDF['T1 Outcome'][i]:
-        right+=1
-    else:
-        wrong+=1
-
-print(str(round(((right/(right+wrong))*100),3))+"% Accurate")
+tet.to_csv(r'C:/Projects/NFLPredictor/Model/AidansModels/playofftest.csv', index=False)
