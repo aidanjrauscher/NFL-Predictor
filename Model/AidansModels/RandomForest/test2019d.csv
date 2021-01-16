@@ -1,0 +1,257 @@
+T1,T1 Outcome,T2,T2 Outcome
+Chicago Bears,0,Green Bay Packers,Win
+Tennessee Titans,1,Cleveland Browns,Lose
+Minnesota Vikings,1,Atlanta Falcons,Lose
+Washington Redskins,0,Philadelphia Eagles,Win
+Los Angeles Rams,1,Carolina Panthers,Lose
+Buffalo Bills,1,New York Jets,Lose
+Kansas City Chiefs,1,Jacksonville Jaguars,Lose
+Miami Dolphins,0,Baltimore Ravens,Win
+Indianapolis Colts,0,Los Angeles Chargers,Win
+Cincinnati Bengals,0,Seattle Seahawks,Win
+Dallas Cowboys,1,New York Giants,Lose
+Arizona Cardinals,1,Detroit Lions,Lose
+Tampa Bay Buccaneers,0,San Francisco 49ers,Win
+Pittsburgh Steelers,0,New England Patriots,Win
+Houston Texans,0,New Orleans Saints,Win
+Denver Broncos,1,Oakland Raiders,Lose
+Tampa Bay Buccaneers,1,Carolina Panthers,Lose
+Indianapolis Colts,0,Tennessee Titans,Win
+San Francisco 49ers,1,Cincinnati Bengals,Lose
+Miami Dolphins,0,New England Patriots,Win
+Seattle Seahawks,0,Pittsburgh Steelers,Win
+Washington Redskins,0,Dallas Cowboys,Win
+Detroit Lions,0,Los Angeles Chargers,Win
+Green Bay Packers,1,Minnesota Vikings,Lose
+Houston Texans,1,Jacksonville Jaguars,Lose
+Buffalo Bills,1,New York Giants,Lose
+Baltimore Ravens,1,Arizona Cardinals,Lose
+Oakland Raiders,0,Kansas City Chiefs,Win
+New Orleans Saints,1,Los Angeles Rams,Lose
+Denver Broncos,0,Chicago Bears,Win
+Philadelphia Eagles,0,Atlanta Falcons,Win
+Cleveland Browns,0,New York Jets,Win
+Tennessee Titans,1,Jacksonville Jaguars,Lose
+New York Jets,0,New England Patriots,Win
+Cincinnati Bengals,0,Buffalo Bills,Win
+Green Bay Packers,1,Denver Broncos,Lose
+Kansas City Chiefs,0,Baltimore Ravens,Win
+Dallas Cowboys,1,Miami Dolphins,Lose
+Detroit Lions,0,Philadelphia Eagles,Win
+Indianapolis Colts,1,Atlanta Falcons,Lose
+Oakland Raiders,0,Minnesota Vikings,Win
+Arizona Cardinals,1,Carolina Panthers,Lose
+New York Giants,0,Tampa Bay Buccaneers,Win
+Houston Texans,0,Los Angeles Chargers,Win
+New Orleans Saints,1,Seattle Seahawks,Lose
+San Francisco 49ers,1,Pittsburgh Steelers,Lose
+Los Angeles Rams,1,Cleveland Browns,Lose
+Washington Redskins,0,Chicago Bears,Win
+Philadelphia Eagles,0,Green Bay Packers,Win
+Houston Texans,1,Carolina Panthers,Lose
+Washington Redskins,0,New York Giants,Win
+Indianapolis Colts,1,Oakland Raiders,Lose
+New England Patriots,1,Buffalo Bills,Lose
+Miami Dolphins,0,Los Angeles Chargers,Win
+Cleveland Browns,0,Baltimore Ravens,Win
+Detroit Lions,0,Kansas City Chiefs,Win
+Tennessee Titans,1,Atlanta Falcons,Lose
+Arizona Cardinals,0,Seattle Seahawks,Win
+Tampa Bay Buccaneers,0,Los Angeles Rams,Win
+Minnesota Vikings,1,Chicago Bears,Lose
+Jacksonville Jaguars,0,Denver Broncos,Win
+Dallas Cowboys,0,New Orleans Saints,Win
+Pittsburgh Steelers,1,Cincinnati Bengals,Lose
+Seattle Seahawks,0,Los Angeles Rams,Win
+New York Jets,0,Philadelphia Eagles,Win
+Minnesota Vikings,1,New York Giants,Lose
+Atlanta Falcons,0,Houston Texans,Win
+Washington Redskins,0,New England Patriots,Win
+Chicago Bears,1,Oakland Raiders,Lose
+Jacksonville Jaguars,0,Carolina Panthers,Win
+New Orleans Saints,1,Tampa Bay Buccaneers,Lose
+Cincinnati Bengals,0,Arizona Cardinals,Win
+Tennessee Titans,1,Buffalo Bills,Lose
+Baltimore Ravens,1,Pittsburgh Steelers,Lose
+Los Angeles Chargers,1,Denver Broncos,Lose
+Dallas Cowboys,1,Green Bay Packers,Lose
+Kansas City Chiefs,1,Indianapolis Colts,Lose
+San Francisco 49ers,1,Cleveland Browns,Lose
+New York Giants,0,New England Patriots,Win
+Carolina Panthers,0,Tampa Bay Buccaneers,Win
+Miami Dolphins,1,Washington Redskins,Lose
+Philadelphia Eagles,0,Minnesota Vikings,Win
+Kansas City Chiefs,1,Houston Texans,Lose
+Seattle Seahawks,1,Cleveland Browns,Lose
+New Orleans Saints,1,Jacksonville Jaguars,Lose
+Baltimore Ravens,1,Cincinnati Bengals,Lose
+Los Angeles Rams,0,San Francisco 49ers,Win
+Arizona Cardinals,0,Atlanta Falcons,Win
+Tennessee Titans,1,Denver Broncos,Lose
+New York Jets,0,Dallas Cowboys,Win
+Los Angeles Chargers,1,Pittsburgh Steelers,Lose
+Detroit Lions,0,Green Bay Packers,Win
+Denver Broncos,0,Kansas City Chiefs,Win
+Buffalo Bills,1,Miami Dolphins,Lose
+Minnesota Vikings,1,Detroit Lions,Lose
+Indianapolis Colts,1,Houston Texans,Lose
+Washington Redskins,0,San Francisco 49ers,Win
+Oakland Raiders,0,Green Bay Packers,Win
+Cincinnati Bengals,0,Jacksonville Jaguars,Win
+Arizona Cardinals,1,New York Giants,Lose
+Atlanta Falcons,0,Los Angeles Rams,Win
+Los Angeles Chargers,0,Tennessee Titans,Win
+Chicago Bears,0,New Orleans Saints,Win
+Baltimore Ravens,1,Seattle Seahawks,Lose
+Dallas Cowboys,1,Philadelphia Eagles,Lose
+New York Jets,0,New England Patriots,Win
+Washington Redskins,0,Minnesota Vikings,Win
+Los Angeles Chargers,0,Chicago Bears,Win
+Denver Broncos,0,Indianapolis Colts,Win
+Philadelphia Eagles,0,Buffalo Bills,Win
+Detroit Lions,1,New York Giants,Lose
+Atlanta Falcons,0,Seattle Seahawks,Win
+Tennessee Titans,1,Tampa Bay Buccaneers,Lose
+Cincinnati Bengals,0,Los Angeles Rams,Win
+Jacksonville Jaguars,1,New York Jets,Lose
+Arizona Cardinals,0,New Orleans Saints,Win
+San Francisco 49ers,1,Carolina Panthers,Lose
+Cleveland Browns,0,New England Patriots,Win
+Oakland Raiders,0,Houston Texans,Win
+Green Bay Packers,0,Kansas City Chiefs,Win
+Miami Dolphins,0,Pittsburgh Steelers,Win
+San Francisco 49ers,1,Arizona Cardinals,Lose
+Jacksonville Jaguars,0,Houston Texans,Win
+Chicago Bears,0,Philadelphia Eagles,Win
+Tennessee Titans,1,Carolina Panthers,Lose
+New York Jets,1,Miami Dolphins,Lose
+Indianapolis Colts,0,Pittsburgh Steelers,Win
+Washington Redskins,0,Buffalo Bills,Win
+Minnesota Vikings,0,Kansas City Chiefs,Win
+Oakland Raiders,0,Detroit Lions,Win
+Seattle Seahawks,0,Tampa Bay Buccaneers,Win
+Cleveland Browns,0,Denver Broncos,Win
+Green Bay Packers,0,Los Angeles Chargers,Win
+New England Patriots,0,Baltimore Ravens,Win
+New York Giants,0,Dallas Cowboys,Win
+Los Angeles Chargers,1,Oakland Raiders,Lose
+New Orleans Saints,1,Atlanta Falcons,Lose
+Chicago Bears,1,Detroit Lions,Lose
+Baltimore Ravens,1,Cincinnati Bengals,Lose
+Buffalo Bills,1,Cleveland Browns,Lose
+Tennessee Titans,0,Kansas City Chiefs,Win
+Arizona Cardinals,0,Tampa Bay Buccaneers,Win
+New York Jets,0,New York Giants,Win
+Indianapolis Colts,1,Miami Dolphins,Lose
+Pittsburgh Steelers,0,Los Angeles Rams,Win
+Carolina Panthers,0,Green Bay Packers,Win
+Minnesota Vikings,0,Dallas Cowboys,Win
+Seattle Seahawks,0,San Francisco 49ers,Win
+Cleveland Browns,1,Pittsburgh Steelers,Lose
+Miami Dolphins,0,Buffalo Bills,Win
+Baltimore Ravens,1,Houston Texans,Lose
+Detroit Lions,0,Dallas Cowboys,Win
+Carolina Panthers,0,Atlanta Falcons,Win
+Minnesota Vikings,1,Denver Broncos,Lose
+New Orleans Saints,1,Tampa Bay Buccaneers,Lose
+New York Jets,1,Washington Redskins,Lose
+Jacksonville Jaguars,0,Indianapolis Colts,Win
+San Francisco 49ers,1,Arizona Cardinals,Lose
+Oakland Raiders,1,Cincinnati Bengals,Lose
+Philadelphia Eagles,0,New England Patriots,Win
+Los Angeles Rams,1,Chicago Bears,Lose
+Los Angeles Chargers,0,Kansas City Chiefs,Win
+Indianapolis Colts,0,Houston Texans,Win
+Chicago Bears,1,New York Giants,Lose
+Oakland Raiders,0,New York Jets,Win
+Washington Redskins,0,Detroit Lions,Win
+Pittsburgh Steelers,1,Cincinnati Bengals,Lose
+Denver Broncos,0,Buffalo Bills,Win
+Seattle Seahawks,0,Philadelphia Eagles,Win
+Miami Dolphins,0,Cleveland Browns,Win
+Atlanta Falcons,0,Tampa Bay Buccaneers,Win
+New Orleans Saints,1,Carolina Panthers,Lose
+Tennessee Titans,1,Jacksonville Jaguars,Lose
+New England Patriots,1,Dallas Cowboys,Lose
+Green Bay Packers,0,San Francisco 49ers,Win
+Baltimore Ravens,1,Los Angeles Rams,Lose
+Chicago Bears,1,Detroit Lions,Lose
+Dallas Cowboys,1,Buffalo Bills,Lose
+New Orleans Saints,1,Atlanta Falcons,Lose
+Green Bay Packers,1,New York Giants,Lose
+Carolina Panthers,1,Washington Redskins,Lose
+Jacksonville Jaguars,0,Tampa Bay Buccaneers,Win
+Indianapolis Colts,0,Tennessee Titans,Win
+Baltimore Ravens,1,San Francisco 49ers,Lose
+Miami Dolphins,0,Philadelphia Eagles,Win
+New York Jets,1,Cincinnati Bengals,Lose
+Pittsburgh Steelers,1,Cleveland Browns,Lose
+Arizona Cardinals,0,Los Angeles Rams,Win
+Oakland Raiders,0,Kansas City Chiefs,Win
+Denver Broncos,0,Los Angeles Chargers,Win
+New England Patriots,1,Houston Texans,Lose
+Minnesota Vikings,1,Seattle Seahawks,Lose
+Chicago Bears,0,Dallas Cowboys,Win
+Buffalo Bills,0,Baltimore Ravens,Win
+San Francisco 49ers,1,New Orleans Saints,Lose
+Denver Broncos,0,Houston Texans,Win
+Green Bay Packers,1,Washington Redskins,Lose
+Carolina Panthers,0,Atlanta Falcons,Win
+Detroit Lions,0,Minnesota Vikings,Win
+Tampa Bay Buccaneers,1,Indianapolis Colts,Lose
+New York Jets,1,Miami Dolphins,Lose
+Cincinnati Bengals,0,Cleveland Browns,Win
+Los Angeles Chargers,1,Jacksonville Jaguars,Lose
+Pittsburgh Steelers,1,Arizona Cardinals,Lose
+Tennessee Titans,1,Oakland Raiders,Lose
+Kansas City Chiefs,1,New England Patriots,Lose
+Los Angeles Rams,1,Seattle Seahawks,Lose
+New York Giants,0,Philadelphia Eagles,Win
+Baltimore Ravens,1,New York Jets,Lose
+Green Bay Packers,1,Chicago Bears,Lose
+New York Giants,1,Miami Dolphins,Lose
+Cincinnati Bengals,0,New England Patriots,Win
+Carolina Panthers,0,Seattle Seahawks,Win
+Kansas City Chiefs,1,Denver Broncos,Lose
+Philadelphia Eagles,1,Washington Redskins,Lose
+Tennessee Titans,1,Houston Texans,Lose
+Tampa Bay Buccaneers,1,Detroit Lions,Lose
+Arizona Cardinals,1,Cleveland Browns,Lose
+Los Angeles Chargers,0,Minnesota Vikings,Win
+Jacksonville Jaguars,1,Oakland Raiders,Lose
+Los Angeles Rams,0,Dallas Cowboys,Win
+Atlanta Falcons,0,San Francisco 49ers,Win
+Buffalo Bills,1,Pittsburgh Steelers,Lose
+Indianapolis Colts,0,New Orleans Saints,Win
+Houston Texans,0,Tampa Bay Buccaneers,Win
+New England Patriots,1,Buffalo Bills,Lose
+Los Angeles Rams,0,San Francisco 49ers,Win
+Atlanta Falcons,1,Jacksonville Jaguars,Lose
+Washington Redskins,0,New York Giants,Win
+Cleveland Browns,0,Baltimore Ravens,Win
+New Orleans Saints,0,Tennessee Titans,Win
+Miami Dolphins,1,Cincinnati Bengals,Lose
+Pittsburgh Steelers,1,New York Jets,Lose
+Carolina Panthers,0,Indianapolis Colts,Win
+Oakland Raiders,0,Los Angeles Chargers,Win
+Detroit Lions,0,Denver Broncos,Win
+Dallas Cowboys,1,Philadelphia Eagles,Lose
+Seattle Seahawks,1,Arizona Cardinals,Lose
+Kansas City Chiefs,1,Chicago Bears,Lose
+Minnesota Vikings,1,Green Bay Packers,Lose
+Carolina Panthers,0,New Orleans Saints,Win
+Los Angeles Chargers,0,Kansas City Chiefs,Win
+Detroit Lions,0,Green Bay Packers,Win
+Tampa Bay Buccaneers,1,Atlanta Falcons,Lose
+Miami Dolphins,0,New England Patriots,Win
+Minnesota Vikings,1,Chicago Bears,Lose
+Cleveland Browns,1,Cincinnati Bengals,Lose
+Buffalo Bills,1,New York Jets,Lose
+Oakland Raiders,0,Denver Broncos,Win
+Houston Texans,0,Tennessee Titans,Win
+Indianapolis Colts,1,Jacksonville Jaguars,Lose
+New York Giants,0,Philadelphia Eagles,Win
+Dallas Cowboys,1,Washington Redskins,Lose
+Baltimore Ravens,1,Pittsburgh Steelers,Lose
+Los Angeles Rams,1,Arizona Cardinals,Lose
+Seattle Seahawks,0,San Francisco 49ers,Win
