@@ -149,7 +149,7 @@ everything = pd.DataFrame ({
 
 
 location = r'C:\Projects\NFLPredictor\Model\AidansModels\Playoffs'
-name = '\MatchUp2020ConfChamp'+str(year)+'.csv'
+name = '\MatchUp2020ConfChamp.csv'
 path = location + name
 everything.to_csv(path, index=False)
 
