@@ -47,7 +47,6 @@ t23rdDef = []
 t24thDef = []
 
 
-
 def dePercentify(per):
     num = per.replace('%', '')
     return float(num)/100
@@ -112,39 +111,39 @@ for i in range(len(games)):
 
 
 everything = pd.DataFrame ({
-    'T1': team1,
-    'T1 Outcome': team1outcome,
-    'T1 Score': team1score,
-    'T1 Location': team1location,
-    'T1 Avg Points': t1AvgPts,
-    'T1 Avg Yards': t1AvgYads,
-    'T1 NPY/A': t1NPYA,
-    'T1 NRY/A':t1NRYA,
-    'T1 3rd': t13rd,
-    'T1 4th': t14th,
-    'T1 Avg Points Def' : t1AvgPtsDef,
-    'T1 Avg Yards Def': t1AvgYadsDef,
-    'T1 NPY/A Def': t1NPYADef,
-    'T1 NRY/A Def': t1NRYADef,
-    'T1 3rd Def': t13rdDef,
-    'T1 4th Def': t14thDef,
+    "T1": team1,
+    "T1 Outcome": team1outcome,
+    "T1 Score": team1score,
+    "T1 Location": team1location,
+    "T1 Avg Points": t1AvgPts,
+    "T1 Avg Yards": t1AvgYads,
+    "T1 NPY/A": t1NPYA,
+    "T1 NRY/A": t1NRYA,
+    "T1 3rd": t13rd,
+    "T1 4th": t14th,
+    "T1 Avg Points Def": t1AvgPtsDef,
+    "T1 Avg Yards Def": t1AvgYadsDef,
+    "T1 NPY/A Def": t1NPYADef,
+    "T1 NRY/A Def": t1NRYADef,
+    "T1 3rd Def": t13rdDef,
+    "T1 4th Def": t14thDef,
 
-    'T2': team2,
-    'T2 Outcome': team2outcome,
-    'T2 Score': team2score,
-    'T2 Location':  team2location,
-    'T2 Avg Points': t2AvgPts,
-    'T2 Avg Yards': t2AvgYads,
-    'T2 NPY/A': t2NPYA,
-    'T2 NRY/A':t2NRYA,
-    'T2 3rd': t23rd,
-    'T2 4th': t24th,
-    'T2 Avg Points Def' : t2AvgPtsDef,
-    'T2 Avg Yards Def': t2AvgYadsDef,
-    'T2 NPY/A Def': t2NPYADef,
-    'T2 NRY/A Def': t2NRYADef,
-    'T2 3rd Def': t23rdDef,
-    'T2 4th Def': t24thDef,
+    "T2": team2,
+    "T2 Outcome": team2outcome,
+    "T2 Score": team2score,
+    "T2 Location":  team2location,
+    "T2 Avg Points": t2AvgPts,
+    "T2 Avg Yards": t2AvgYads,
+    "T2 NPY/A": t2NPYA,
+    "T2 NRY/A": t2NRYA,
+    "T2 3rd": t23rd,
+    "T2 4th": t24th,
+    "T2 Avg Points Def": t2AvgPtsDef,
+    "T2 Avg Yards Def": t2AvgYadsDef,
+    "T2 NPY/A Def": t2NPYADef,
+    "T2 NRY/A Def": t2NRYADef,
+    "T2 3rd Def": t23rdDef,
+    "T2 4th Def": t24thDef,
 })
 
 
